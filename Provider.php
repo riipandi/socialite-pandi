@@ -1,6 +1,6 @@
 <?php
 
-namespace SocialiteProviders\Dropbox;
+namespace Riipandi\SocialitePandi;
 
 use Illuminate\Support\Arr;
 use Laravel\Socialite\Two\ProviderInterface;

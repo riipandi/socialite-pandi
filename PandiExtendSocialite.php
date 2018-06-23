@@ -1,6 +1,6 @@
 <?php
 
-namespace SocialiteProviders\Pandi;
+namespace Riipandi\SocialitePandi;
 
 use SocialiteProviders\Manager\SocialiteWasCalled;
 
