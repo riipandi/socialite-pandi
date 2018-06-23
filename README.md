@@ -2,7 +2,11 @@
 Pandi U.ID OAuth2 Provider for Laravel Socialite
 
 ## install
+
+```
 composer require riipandi/socialite-pandi
+```
+
 
 ## register
 
