@@ -17,6 +17,13 @@ class Provider extends AbstractProvider implements ProviderInterface
     /**
      * {@inheritdoc}
      */
+    protected $scopes = ['basic', 'email', 'phone', 'address_ktp', 'address_domicile', 'legitimacy', 'registers_user'];
+
+    protected $scopeSeparator = ' ';
+
+    /**
+     * {@inheritdoc}
+     */
     protected function getAuthUrl($state)
     {
         return $this->buildAuthUrlFromBase(
